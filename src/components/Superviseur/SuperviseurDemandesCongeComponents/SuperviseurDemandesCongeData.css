@@ -1,0 +1,205 @@
+.imad-taki4 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 220px;
+  padding: 0;
+  z-index: 2;
+}
+.imad-taki-wrapper {
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mars-20243 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  width: 339px;
+  height: 48px;
+  position: relative;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+  z-index: 2;
+}
+.mars-label {
+  width: 519px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input17 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  width: 25px;
+  height: 48px;
+  position: relative;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.frame {
+  width: 239px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.mars-20244 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  display: inline-block;
+  min-width: 185px;
+  padding: 0;
+  z-index: 2;
+}
+.mars-2024-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  min-width: 201px;
+}
+.buttonresponse-child {
+  height: 76px;
+  width: 238px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+}
+.down-2-icon,
+.en-attente {
+  position: relative;
+  z-index: 1;
+}
+.en-attente {
+  flex: 1;
+  font-weight: 500;
+}
+.down-2-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.down-2-wrapper {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.buttonresponse,
+.frame-parent49,
+.frame-parent50 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonresponse {
+  width: 238px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  padding: var(--padding-2xl) var(--padding-mid) var(--padding-lgi)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  z-index: 2;
+}
+.frame-parent49,
+.frame-parent50 {
+  max-width: 100%;
+}
+.frame-parent50 {
+  flex: 1;
+  gap: var(--gap-45xl);
+  min-width: 397px;
+}
+.frame-parent49 {
+  width: 1768px;
+  flex-wrap: wrap;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .imad-taki4,
+  .input17,
+  .mars-20243,
+  .mars-20244 {
+    font-size: var(--font-size-13xl);
+  }
+  .en-attente {
+    font-size: var(--font-size-5xl);
+  }
+  .frame-parent50 {
+    flex-wrap: wrap;
+    gap: 64px 32px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .imad-taki4,
+  .input17,
+  .mars-20243,
+  .mars-20244 {
+    font-size: var(--font-size-5xl);
+  }
+  .en-attente {
+    font-size: var(--font-size-lg);
+  }
+  .frame-parent50 {
+    gap: 64px 16px;
+  }
+}

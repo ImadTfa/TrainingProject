@@ -1,0 +1,207 @@
+.demandes-de-cong2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(#12182b, #12182b), #4f4f4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.demandes-de-cong2,
+.input16,
+.nombres-de-demandes {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+.nombres-de-demandes {
+  width: 420px;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.input16 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-16xl);
+  background-color: transparent;
+  height: 42px;
+  width: 60px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+.nombres-de-demandes-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.demandes-de-cong-group,
+.frame-wrapper26,
+.nombres-de-demandes-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper26 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+}
+.demandes-de-cong-group {
+  width: 1166px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.date-de-dbut1,
+.nom7,
+.nombre-de-jours1 {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.nom7 {
+  width: 80px;
+  min-width: 80px;
+}
+.date-de-dbut1,
+.nombre-de-jours1 {
+  width: 241px;
+}
+.nombre-de-jours1 {
+  width: 282px;
+}
+.date-de-retour1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.date-de-retour-container {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.statut1 {
+  width: 106px;
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 2;
+}
+.date-de-dbut-group,
+.imad-taki-profile-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-110xl);
+  max-width: 100%;
+}
+.imad-taki-profile-picture {
+  width: 1647px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent48,
+.imad-taki-profile-picture-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imad-taki-profile-picture-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+}
+.frame-parent48 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-49xl);
+}
+.frame-wrapper25 {
+  width: 1745px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1550px) {
+  .date-de-dbut-group,
+  .imad-taki-profile-picture {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .date-de-dbut-group {
+    gap: 129px 64px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .demandes-de-cong2 {
+    font-size: var(--font-size-25xl);
+  }
+  .input16,
+  .nombres-de-demandes {
+    font-size: var(--font-size-9xl);
+  }
+  .nombres-de-demandes-parent {
+    flex-wrap: wrap;
+  }
+  .demandes-de-cong-group {
+    gap: 25px 50px;
+  }
+  .date-de-dbut1,
+  .date-de-retour1,
+  .nom7,
+  .nombre-de-jours1,
+  .statut1 {
+    font-size: var(--font-size-9xl);
+  }
+  .date-de-dbut-group {
+    gap: 129px 32px;
+  }
+  .frame-parent48 {
+    gap: 34px 68px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .demandes-de-cong2 {
+    font-size: var(--font-size-14xl);
+  }
+  .date-de-dbut1,
+  .date-de-retour1,
+  .input16,
+  .nom7,
+  .nombre-de-jours1,
+  .nombres-de-demandes,
+  .statut1 {
+    font-size: var(--font-size-2xl);
+  }
+  .date-de-dbut-group {
+    gap: 129px 16px;
+  }
+  .frame-parent48 {
+    gap: 17px 68px;
+  }
+}

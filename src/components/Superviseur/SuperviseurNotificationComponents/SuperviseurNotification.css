@@ -1,0 +1,27 @@
+.notification-icon1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  transform: scale(1.031);
+}
+.wrapper-notification1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 386.7px;
+  height: 445.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notifications1 {
+  width: 386.2px;
+  height: 446px;
+  letter-spacing: normal;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}

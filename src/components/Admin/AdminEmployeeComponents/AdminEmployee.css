@@ -1,0 +1,505 @@
+.id2,
+.tablebackground1 {
+  position: relative;
+  mix-blend-mode: normal;
+}
+.tablebackground1 {
+  width: 1747px;
+  height: 708px;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25),
+    3px 3px 3px 3px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+  max-width: 100%;
+}
+.id2 {
+  align-self: stretch;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  min-width: 34px;
+  z-index: 1;
+}
+.surname-input {
+  width: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+}
+.nom4 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  min-width: 75px;
+  z-index: 1;
+}
+.add-btn {
+  width: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.prenom4,
+.snom {
+  width: 125px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  min-width: 125px;
+  z-index: 1;
+}
+.snom {
+  width: 107px;
+  min-width: 107px;
+}
+.name-field {
+  width: 567px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-100xl);
+  max-width: 100%;
+}
+.modifier-informations1,
+.sid {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.sid {
+  width: 62px;
+  min-width: 62px;
+}
+.modifier-informations1 {
+  width: 357px;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.surname-input-parent {
+  width: 1493px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.profile-picture-edit-button-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.imad-field-child {
+  height: 681px;
+  width: 1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -507.2px;
+  left: 258.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.imad-modified-1-icon4 {
+  height: 63.8px;
+  width: 61px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.ay19030 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-9xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  min-width: 73px;
+  padding: 0;
+  z-index: 1;
+}
+.account-name-input,
+.ay19030-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ay19030-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.account-name-input {
+  height: 63.8px;
+  width: 199px;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.imad {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-9xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  min-width: 139px;
+  padding: 0;
+  z-index: 1;
+}
+.imad-wrapper {
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.account-name-input-parent,
+.imad-field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.account-name-input-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.imad-field {
+  width: 560px;
+  justify-content: flex-start;
+  position: relative;
+}
+.taki {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-9xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  min-width: 126px;
+  padding: 0;
+  z-index: 2;
+}
+.taki-wrapper {
+  flex: 0.9292;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  min-width: 148px;
+}
+.ab58846,
+.alami {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-9xl);
+  background-color: transparent;
+  height: 35px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  padding: 0;
+}
+.alami {
+  flex: 1;
+  min-width: 148px;
+  z-index: 1;
+}
+.ab58846 {
+  width: 179px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.button-modifier1,
+.frame-parent43 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent43 {
+  width: 632px;
+  flex-direction: row;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.button-modifier1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm-8);
+  box-sizing: border-box;
+  min-width: 508px;
+}
+.buttonmodifier-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.modifier4 {
+  position: absolute;
+  top: 10px;
+  left: 29px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 107px;
+  height: 28px;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  cursor: pointer;
+  z-index: 1;
+}
+.buttonmodifier {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.setting-modifier-button {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-8);
+  box-sizing: border-box;
+}
+.imad-field-parent,
+.profile-picture-edit-button-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imad-field-parent {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+.profile-picture-edit-button-inner {
+  width: 1547px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.profile-picture-edit-button,
+.table1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profile-picture-edit-button {
+  margin-right: -108px;
+  width: 1740px;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 107%;
+  flex-shrink: 0;
+}
+.table1 {
+  align-self: stretch;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25),
+    3px 3px 3px 3px rgba(0, 0, 0, 0.25) inset;
+  align-items: flex-end;
+  padding: var(--padding-17xl) var(--padding-88xl) var(--padding-501xl-2)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-14xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1300px) {
+  .surname-input-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .table1 {
+    padding-right: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .button-modifier1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .id2,
+  .nom4,
+  .prenom4,
+  .snom {
+    font-size: var(--font-size-7xl);
+  }
+  .name-field {
+    flex-wrap: wrap;
+    gap: 119px 59px;
+  }
+  .modifier-informations1,
+  .sid {
+    font-size: var(--font-size-7xl);
+  }
+  .ay19030,
+  .imad {
+    align-self: stretch;
+    width: auto;
+    min-width: 100%;
+  }
+  .account-name-input-parent {
+    flex-wrap: wrap;
+  }
+  .taki {
+    align-self: stretch;
+    width: auto;
+    min-width: 100%;
+  }
+  .ab58846,
+  .alami {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent43 {
+    flex-wrap: wrap;
+  }
+  .button-modifier1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .buttonmodifier {
+    text-align: center;
+    min-width: 166;
+  }
+  .buttonmodifier,
+  .setting-modifier-button {
+    align-self: stretch;
+    width: auto;
+  }
+  .imad-field-parent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .imad-field-parent,
+  .profile-picture-edit-button-inner {
+    flex-direction: column;
+  }
+  .profile-picture-edit-button {
+    gap: 16px 32px;
+  }
+  .table1 {
+    padding-top: var(--padding-4xl);
+    padding-right: var(--padding-7xl);
+    padding-bottom: var(--padding-319xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .id2,
+  .nom4,
+  .prenom4,
+  .snom {
+    font-size: var(--font-size-xl);
+  }
+  .name-field {
+    gap: 119px 30px;
+  }
+  .modifier-informations1,
+  .sid {
+    font-size: var(--font-size-xl);
+  }
+  .ay19030,
+  .imad,
+  .taki {
+    font-size: var(--font-size-3xl);
+  }
+  .taki-wrapper {
+    flex: 1;
+  }
+  .ab58846,
+  .alami {
+    font-size: var(--font-size-3xl);
+  }
+}

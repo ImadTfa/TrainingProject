@@ -1,0 +1,201 @@
+.menubackground10 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lavender);
+  box-shadow: 14px 14px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: overlay;
+}
+.accueil7,
+.demandes-de-cong4 {
+  position: relative;
+  font-weight: 800;
+  background: linear-gradient(#3f3f3f, #3f3f3f), #4f4f4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.demandes-de-cong-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pointage10 {
+  position: relative;
+  font-weight: 800;
+  background: linear-gradient(#3f3f3f, #3f3f3f), #4f4f4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+}
+.accueil-parent3,
+.navbar-inner4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accueil-parent3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-43xl);
+}
+.navbar-inner4 {
+  width: 835px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.sedeconnecter-child2 {
+  height: 60px;
+  width: 229px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+  mix-blend-mode: normal;
+}
+.a13 {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.notification-dot,
+.sedeconnecter4 {
+  display: flex;
+  align-items: flex-start;
+}
+.sedeconnecter4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-6xs) var(--padding-xs);
+  background-color: var(--color-gray-100);
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.sedeconnecter4:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.notification-dot {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.notificationicon-111 {
+  height: 51px;
+  width: 51px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.name-and-id-container-child {
+  position: absolute;
+  top: 58px;
+  left: 3px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 41px;
+  height: 1px;
+  z-index: 1;
+}
+.accounticon-17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  object-fit: cover;
+  z-index: 1;
+}
+.name-and-id-container {
+  height: 59px;
+  width: 51px;
+  position: relative;
+}
+.imadmodified-background {
+  height: 59px;
+  width: 143px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbar10,
+.notification-dot-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.notification-dot-parent {
+  width: 426px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.navbar10 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-29xl) var(--padding-7xs)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .accueil-parent3 {
+    display: none;
+  }
+  .navbar-inner4 {
+    width: 0;
+  }
+  .navbar10 {
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .accueil-parent3 {
+    gap: 62px 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accueil-parent3 {
+    gap: 62px 15px;
+  }
+  .notification-dot-parent {
+    gap: 54px 27px;
+  }
+}

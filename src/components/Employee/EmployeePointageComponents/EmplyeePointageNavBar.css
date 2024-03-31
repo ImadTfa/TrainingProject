@@ -1,0 +1,197 @@
+.menubackground3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 3.2px;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lavender);
+  box-shadow: 14px 14px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: overlay;
+}
+.accueil1 {
+  white-space: nowrap;
+}
+.accueil1,
+.pointage3 {
+  position: relative;
+  font-weight: 800;
+  background: linear-gradient(#3f3f3f, #3f3f3f), #4f4f4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+}
+.pointage-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.frame-child17 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.frame-parent35 {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.cong1 {
+  position: relative;
+  font-weight: 800;
+  background: linear-gradient(#3f3f3f, #3f3f3f), #4f4f4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 124px;
+  cursor: pointer;
+  z-index: 1;
+}
+.accueil-group,
+.navbar-inner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accueil-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-28xl-5);
+}
+.navbar-inner1 {
+  width: 542px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonsedeconnecter-child1 {
+  height: 60px;
+  width: 229px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+  mix-blend-mode: normal;
+}
+.a4 {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.buttonsedeconnecter4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-6xs) var(--padding-xs);
+  background-color: var(--color-gray-100);
+  flex: 1;
+  border-radius: var(--br-xl);
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonsedeconnecter4:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.accounticon-11,
+.notificationicon-14 {
+  height: 51px;
+  width: 51px;
+  position: relative;
+  object-fit: cover;
+  min-height: 51px;
+  cursor: pointer;
+  z-index: 1;
+}
+.notificationicon-1-group {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper12 {
+  height: 53px;
+  width: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.buttonsedeconnecter-group,
+.navbar4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonsedeconnecter-group {
+  width: 426px;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.navbar4 {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-33xl) var(--padding-6xs)
+    var(--padding-30xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .navbar4 {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .accueil-group {
+    display: none;
+  }
+  .navbar-inner1 {
+    width: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .accueil-group {
+    gap: 47.5px 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonsedeconnecter-group {
+    gap: 54px 27px;
+  }
+}

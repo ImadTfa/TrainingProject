@@ -1,0 +1,82 @@
+.nom8 {
+  width: 78px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  min-width: 78px;
+  z-index: 1;
+}
+.nombackground-icon3 {
+  height: 60px;
+  width: 1918px;
+  position: absolute;
+  margin: 0 !important;
+  top: -13px;
+  right: -1205px;
+  border-radius: var(--br-3xs);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.imad1,
+.nom-background-nickname {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.imad1 {
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(0, 0, 0, 0.4),
+    -1px 0 0 rgba(0, 0, 0, 0.4), 0-1px 0 rgba(0, 0, 0, 0.4);
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.nom-background-nickname {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nom-background-nickname-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-gray-300);
+}
+.frame-wrapper28,
+.nom-background-nickname-wrapper,
+.nom-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nom-parent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.frame-wrapper28 {
+  width: 624px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) var(--padding-sm);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .imad1,
+  .nom8 {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .imad1,
+  .nom8 {
+    font-size: var(--font-size-2xl);
+  }
+}

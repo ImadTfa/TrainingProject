@@ -1,0 +1,105 @@
+.mars-2024 {
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-26xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  font-weight: 700;
+  color: var(--color-gray-100);
+  white-space: pre-wrap;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 250px;
+  padding: 0;
+  z-index: 1;
+}
+.buttondebut {
+  height: 63px;
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+}
+.dbut {
+  height: 28px;
+  width: 247px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-fredoka-one);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.buttondebut-parent,
+.frame-wrapper13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buttondebut-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-6xs) var(--padding-2xl);
+  background-color: var(--color-gray-100);
+  width: 270px;
+  border-radius: var(--br-sm);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.buttondebut-parent:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.frame-wrapper13 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.mars-2024-parent {
+  width: 762px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
+  max-width: 100%;
+}
+.body-child {
+  width: 1638px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .mars-2024 {
+    font-size: var(--font-size-17xl);
+  }
+  .dbut {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mars-2024 {
+    font-size: var(--font-size-8xl);
+  }
+  .dbut {
+    font-size: var(--font-size-lg);
+  }
+  .mars-2024-parent {
+    gap: 25px 51px;
+  }
+}

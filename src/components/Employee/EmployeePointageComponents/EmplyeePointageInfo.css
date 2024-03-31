@@ -1,0 +1,199 @@
+.heure-dentre2,
+.working-hours-label {
+  width: 312px;
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 1;
+}
+.working-hours-label {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 170px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.heure-dentre-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+  max-width: 100%;
+}
+.heure-de-sortie2,
+.input8 {
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.heure-de-sortie2 {
+  width: 328px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.input8 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 144px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  white-space: nowrap;
+  padding: 0;
+}
+.total-missing-minutes-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  text-align: left;
+}
+.dure-de-pose1,
+.span4 {
+  font-weight: 600;
+}
+.dure-de-pose-container1,
+.input9 {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  z-index: 1;
+}
+.dure-de-pose-container1 {
+  max-width: 100%;
+}
+.input9 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  width: 78px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+.dure-de-pose-minutes-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.minutes-manques2,
+.span5 {
+  font-weight: 600;
+}
+.span5 {
+  white-space: pre-wrap;
+}
+.input10,
+.minutes-manques-minutes-container2 {
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.minutes-manques-minutes-container2 {
+  height: 53px;
+  width: 604px;
+  max-width: 100%;
+}
+.input10 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 75px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  padding: 0;
+}
+.frame-parent36,
+.minutes-manques-minutes-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: left;
+}
+.frame-parent36 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .dure-de-pose-container1,
+  .heure-de-sortie2,
+  .heure-dentre2,
+  .input8,
+  .input9,
+  .working-hours-label {
+    font-size: var(--font-size-13xl);
+  }
+  .dure-de-pose-minutes-group {
+    flex-wrap: wrap;
+  }
+  .input10,
+  .minutes-manques-minutes-container2 {
+    font-size: var(--font-size-13xl);
+  }
+  .minutes-manques-minutes-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heure-dentre-container {
+    flex-wrap: wrap;
+    gap: 53px 26px;
+  }
+  .total-missing-minutes-label {
+    flex-wrap: wrap;
+    gap: 45px 22px;
+  }
+  .frame-parent36 {
+    gap: 19px 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dure-de-pose-container1,
+  .heure-de-sortie2,
+  .heure-dentre2,
+  .input10,
+  .input8,
+  .input9,
+  .minutes-manques-minutes-container2,
+  .working-hours-label {
+    font-size: var(--font-size-5xl);
+  }
+}

@@ -1,0 +1,311 @@
+.time-1-icon {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  object-fit: cover;
+  z-index: 4;
+}
+.heures,
+.temps-de-travail,
+.working-minutes {
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+}
+.temps-de-travail {
+  flex: 1;
+  font-weight: 600;
+  min-width: 229px;
+}
+.heures,
+.working-minutes {
+  text-align: left;
+  flex-shrink: 0;
+}
+.working-minutes {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 24px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  padding: 0;
+}
+.heures {
+  width: 169px;
+}
+.end-hour-timebox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.heure-dentre1,
+.input4 {
+  width: 312px;
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 4;
+}
+.input4 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 170px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.end-hour-timebox-parent,
+.heure-dentre-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.end-hour-timebox-parent {
+  width: 648px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.heure-de-sortie1,
+.input5 {
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.heure-de-sortie1 {
+  width: 333px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.input5 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 48px;
+  width: 144px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  white-space: nowrap;
+  padding: 0;
+}
+.heure-de-sortie-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  text-align: left;
+}
+.dure-de-pose,
+.span2 {
+  font-weight: 600;
+}
+.dure-de-pose-container,
+.input6 {
+  display: inline-block;
+  height: 48px;
+  position: relative;
+  z-index: 4;
+}
+.dure-de-pose-container {
+  max-width: 100%;
+}
+.input6 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  width: 78px;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+.dure-de-pose-minutes-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.timetotal-1-icon {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  object-fit: cover;
+  z-index: 4;
+}
+.timetotal-1-wrapper {
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.minutes-manques1,
+.span3 {
+  font-weight: 600;
+}
+.span3 {
+  white-space: pre-wrap;
+}
+.minutes-manques-minutes-container1 {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.minutes-manques-minutes-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 393px;
+  max-width: 100%;
+}
+.input7 {
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  font-weight: 700;
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  min-width: 45px;
+  padding: 0;
+  z-index: 4;
+}
+.container {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.frame-parent31,
+.frame-parent32,
+.frame-parent33 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent33 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: left;
+}
+.frame-parent31,
+.frame-parent32 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent32 {
+  align-self: stretch;
+  gap: var(--gap-8xl);
+}
+.frame-parent31 {
+  width: 760px;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .minutes-manques-minutes-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dure-de-pose-container,
+  .heure-de-sortie1,
+  .heure-dentre1,
+  .heures,
+  .input4,
+  .input5,
+  .input6,
+  .temps-de-travail,
+  .working-minutes {
+    font-size: var(--font-size-13xl);
+  }
+  .dure-de-pose-minutes-parent {
+    flex-wrap: wrap;
+  }
+  .input7,
+  .minutes-manques-minutes-container1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .heure-dentre-group {
+    flex-wrap: wrap;
+  }
+  .end-hour-timebox-parent {
+    gap: 20px 40px;
+  }
+  .heure-de-sortie-group {
+    flex-wrap: wrap;
+  }
+  .frame-parent31 {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dure-de-pose-container,
+  .heure-de-sortie1,
+  .heure-dentre1,
+  .heures,
+  .input4,
+  .input5,
+  .input6,
+  .input7,
+  .minutes-manques-minutes-container1,
+  .temps-de-travail,
+  .working-minutes {
+    font-size: var(--font-size-5xl);
+  }
+}

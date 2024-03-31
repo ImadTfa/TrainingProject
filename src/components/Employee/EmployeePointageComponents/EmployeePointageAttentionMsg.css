@@ -1,0 +1,97 @@
+.attentionbackground {
+  width: 1720px;
+  height: 164px;
+  position: relative;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.tlchargement-1-icon {
+  height: 60px;
+  width: 72px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.attention1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px rgba(255, 249, 84, 0.4);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.attention-wrapper,
+.file-download-shape {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.attention-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 168px;
+}
+.file-download-shape {
+  width: 340px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.indiquer-de-fausses {
+  width: 1528px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.attention,
+.indiquer-de-fausses-heures-de-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.attention {
+  align-self: stretch;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-29xl) var(--padding-10xl);
+  gap: var(--gap-lgi);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .attention {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .attention1,
+  .indiquer-de-fausses {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .attention1,
+  .indiquer-de-fausses {
+    font-size: var(--font-size-5xl);
+  }
+}
